@@ -170,7 +170,7 @@ public class DecisionTree {
             String attributeValue = instance[getIndex(current.attribute)];
             current = current.children.get(attributeValue);
         }
-        System.out.println("Prediction: " + current.getLeafValue());
+        System.out.println("The digit is: " + current.getLeafValue());
     }
     public void setKey(String attr){
         this.keyAttribute=attr;
