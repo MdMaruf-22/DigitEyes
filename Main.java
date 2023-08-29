@@ -67,7 +67,7 @@ public class Main {
 
             // dt.printDecisionTree(root, "");
 
-            String csvFilePath = "E:\\NEW\\stringmatrix.csv";
+            String csvFilePath = "stringmatrix.csv";
             String[] test = new String[784];
             try {
                 BufferedReader reader = new BufferedReader(new FileReader(csvFilePath));
