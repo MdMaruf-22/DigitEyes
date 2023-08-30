@@ -17,6 +17,7 @@ public class Main {
         String[] attributes = d.getHeaderattributes("label");
         dt.setKey("label");
         TreeNode root = dt.makeTree(dataset, attributes);
+        //dt.printDecisionTree(root, "");
         Scanner sc = new Scanner(System.in);
         System.out.print("How many pictures?");
         int cnt = Integer.parseInt(sc.nextLine());
@@ -64,8 +65,6 @@ public class Main {
                 e.printStackTrace();
             }
             sb.formatCSV("arr.csv", "stringmatrix.csv");
-
-            // dt.printDecisionTree(root, "");
 
             String csvFilePath = "stringmatrix.csv";
             String[] test = new String[784];
