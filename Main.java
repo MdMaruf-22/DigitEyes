@@ -17,15 +17,13 @@ public class Main {
         String[] attributes = d.getHeaderattributes("label");
         dt.setKey("label");
         TreeNode root = dt.makeTree(dataset, attributes);
-        //dt.printDecisionTree(root, "");
+        // dt.printDecisionTree(root, "");
         Scanner sc = new Scanner(System.in);
-        System.out.print("How many pictures?");
+        System.out.print("How many pictures?: ");
         int cnt = Integer.parseInt(sc.nextLine());
-        //String[] imageName = new String[cnt];
         for (int i = 0; i < cnt; i++) {
             System.out.print("Enter the image name(with extension): ");
             String path = sc.nextLine();
-            //imageName[i] = path;
             try {
                 File input = new File(path);
                 BufferedImage image = ImageIO.read(input);
@@ -41,23 +39,23 @@ public class Main {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            String inputFilePath = "mat.csv";
-            String outputFilePath = "arr.csv";
+            String input = "mat.csv";
+            String output = "arr.csv";
             try {
-                BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
-                BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
+                BufferedReader reader = new BufferedReader(new FileReader(input));
+                BufferedWriter writer = new BufferedWriter(new FileWriter(output));
 
                 String line;
-                StringBuilder concatenatedRow = new StringBuilder();
+                StringBuilder concat = new StringBuilder();
 
                 while ((line = reader.readLine()) != null) {
-                    concatenatedRow.append(line).append(",");
+                    concat.append(line).append(",");
                 }
-                if (concatenatedRow.length() > 0) {
-                    concatenatedRow.deleteCharAt(concatenatedRow.length() - 1);
+                if (concat.length() > 0) {
+                    concat.deleteCharAt(concat.length() - 1);
                 }
 
-                writer.write(concatenatedRow.toString());
+                writer.write(concat.toString());
 
                 reader.close();
                 writer.close();
