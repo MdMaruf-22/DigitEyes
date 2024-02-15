@@ -12,11 +12,11 @@ This Java software is designed to extract digits from handwritten images. It inc
 The model was trained using the MNIST dataset, which consists of 60,000 handwritten digit images. You can find the MNIST dataset [here](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv).
 
 ## Usage
-Clone the repository to your local machine.
-Open the project in your preferred Java IDE.
-Compile and run the Main.java file.
-Select an image containing handwritten digits using the UI.
-The software will process the image and display the extracted digits as output.
+- Clone the repository to your local machine.
+- Open the project in your preferred Java IDE.
+- Compile and run the MainWithUI.java file.
+- Select an image containing handwritten digits using the UI.
+- The software will process the image and display the extracted digits as output.
 
 ## Requirements
 Java Development Kit (JDK)
