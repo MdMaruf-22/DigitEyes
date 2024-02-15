@@ -2,11 +2,14 @@
 This Java software is designed to extract digits from handwritten images. It includes a simple user interface where users can select an image containing handwritten digits, and the software will display the extracted digits as output.
 
 ## Features
-Handwritten digit extraction using Sobel algorithm for edge detection.
-Decision tree algorithm for digit classification.
-User-friendly UI for easy image selection and output display.
-Dataset Used for Training
-The model was trained using the MNIST dataset, which consists of 60,000 handwritten digit images. You can find the MNIST dataset here( https://www.kaggle.com/datasets/oddrationale/mnist-in-csv ).
+
+- Handwritten digit extraction using Sobel algorithm for edge detection.
+- Decision tree algorithm for digit classification.
+- User-friendly UI for easy image selection and output display.
+
+## Dataset Used for Training
+
+The model was trained using the MNIST dataset, which consists of 60,000 handwritten digit images. You can find the MNIST dataset [here](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv).
 
 ## Usage
 Clone the repository to your local machine.
