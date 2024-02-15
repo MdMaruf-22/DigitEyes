@@ -1,4 +1,4 @@
-## Handwritten Digit Extraction Software
+## DIGITEYES
 This Java software is designed to extract digits from handwritten images. It includes a simple user interface where users can select an image containing handwritten digits, and the software will display the extracted digits as output.
 
 ## Features
