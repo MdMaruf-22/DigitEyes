@@ -1,5 +1,5 @@
 # **DigitEyes**
-This Java software is designed to extract digits from handwritten images. It includes a simple user interface where users can select an image containing handwritten digits, and the software will display the extracted digits as output.
+This Java software is designed to extract digits from handwritten images. It includes a simple user interface where users can select an image containing single handwritten digit, and the software will display the extracted digit as output.
 
 ## Features
 
@@ -9,7 +9,7 @@ This Java software is designed to extract digits from handwritten images. It inc
 
 ## Dataset Used for Training
 
-The model was trained using the MNIST dataset, which consists of 60,000 handwritten digit images. You can find the MNIST dataset [here](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv).
+The model was trained using the MNIST dataset, which consists of 60,000 handwritten digit images. You can find the MNIST dataset. (https://www.kaggle.com/datasets/oddrationale/mnist-in-csv).
 
 ## Usage
 - Clone the repository to your local machine.
