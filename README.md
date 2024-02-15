@@ -3,9 +3,9 @@ This Java software is designed to extract digits from handwritten images. It inc
 
 ## Features
 
-- Handwritten digit extraction using Sobel algorithm for edge detection.
-- Decision tree algorithm for digit classification.
-- User-friendly UI for easy image selection and output display.
+1. Handwritten digit extraction using Sobel algorithm for edge detection.
+2. Decision tree algorithm for digit classification.
+3. User-friendly UI for easy image selection and output display.
 
 ## Dataset Used for Training
 
@@ -19,9 +19,9 @@ The model was trained using the MNIST dataset, which consists of 60,000 handwrit
 - The software will process the image and display the extracted digits as output.
 
 ## Requirements
-Java Development Kit (JDK)
-Any Java IDE (e.g., Eclipse, IntelliJ IDEA) or text editor
-MNIST dataset (optional for training)
+1. Java Development Kit (JDK)
+2. Any Java IDE (e.g., Eclipse, IntelliJ IDEA) or text editor
+3. MNIST dataset (optional for training)
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug fixes, or improvements, please feel free to open an issue or submit a pull request.
